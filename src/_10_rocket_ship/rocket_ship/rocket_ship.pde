@@ -14,8 +14,20 @@ void draw() {
     fill(248, 128, 0);
     ellipse(x, y + 115, 70, 70);
     fill(255, 153, 0);
-    ellipse(x, y + 95, 35, 35);
+    ellipse(x,y + 95, 35, 35);
     fill(100, 100, 100);
     triangle(x, y + 10, x + 50, y + 100, x - 50, y + 100);
+y=y-1;
+
+ fill(#FCFBCF);
+ ellipse(245, 240, 200, 200);
+
+fill(#FCFBCF);
+ ellipse(600, 246, 10, 10);
+
+fill(#FCFBCF);
+ ellipse(300, 115, 10, 10);
+
+
 
 }
